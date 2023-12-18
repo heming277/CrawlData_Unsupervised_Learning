@@ -6,7 +6,7 @@ It processes the text data and conducts unsuperviised topic modeling using Laten
 
 My goal is to process and return meaningful topics within the large corpus of a web-crawled data, that is mostly random data from webpages around the world, and visualize them using word clouds to see which topics are being talked about aorund the World wide web.
 
-##Example Word Cloud Output
+## Example Word Cloud Output
 
 ![word_cloud](worldcloud.png)
 
