@@ -6,6 +6,10 @@ It processes the text data and conducts unsuperviised topic modeling using Laten
 
 My goal is to process and return meaningful topics within the large corpus of a web-crawled data, that is mostly random data from webpages around the world, and visualize them using word clouds to see which topics are being talked about aorund the World wide web.
 
+##Example Word Cloud Output
+
+![word_cloud](worldcloud.png)
+
 ## Project Overview
 
 1. It downloads latest WARC (Web ARChive) file from Common Crawl. In this case it is using the WET file which is mostly text content.
@@ -25,8 +29,9 @@ My goal is to process and return meaningful topics within the large corpus of a 
 - matplotlib
 - wordcloud
 
-## Installation
+You can also choose your own WRC/WET dataset to use from https://commoncrawl.org instead of using the one I tested with. 
 
+## Installation
 
 1. Clone the repository:
 
